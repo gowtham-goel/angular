@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlayerCardComponent implements OnInit {
 
+  imgUrl = './assets/player-images/ronaldo.png';
+  name = 'Ronaldo';
+
   constructor() { }
 
   ngOnInit(): void {

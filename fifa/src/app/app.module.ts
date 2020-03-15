@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { DragDropModule } from '@angular/cdk/drag-drop';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PlayerCardComponent } from './components/player-card/player-card.component';
@@ -12,7 +14,8 @@ import { PlayerCardComponent } from './components/player-card/player-card.compon
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
